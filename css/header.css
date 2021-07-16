@@ -1,0 +1,20 @@
+.header .navbar{
+    background-color: #2571B7;
+}
+
+.header .navbar .navbar-toggler .navbar-toggler-icon{
+    background-image: url("../assets/hamburger2.svg");
+}
+
+.header .navbar .btn{
+    background-color: #002050;
+    color: white;
+}
+
+.header .navbar .navbar-nav{
+    align-content: space-between;
+}
+
+.header .navbar .nav-item .nav-link{
+    color: white;
+}
