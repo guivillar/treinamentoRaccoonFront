@@ -7,6 +7,8 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 position: relative;
+color: white;
+display: flex;
 }
 
 
@@ -22,26 +24,44 @@ position: relative;
 }
 
 @media only screen and (max-width:991px){
+    .hero .div-hero .texto-hero{
+        padding-top: 100px;
+    }    
+    
     .hero .div-hero h2{
-        padding-top: 50px;
-        font-size: 1.3em;
+        padding-top: 30px;
+        font-size: 1.4em;
         padding-left: 25px;
         padding-right: 25px;
     }
     
     .hero .div-hero{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    color: white;
-    text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        color: white;
+        text-align: center;
+    }
+
+    .hero .div-hero .btn-azul{
+        margin-top: 50px;
+    }
+
+    .hero .div-hero .logo-hero{
+        padding-top: 80px;
+        padding-bottom: 30px;
+        width: 135px;
     }
 }
 
-
-
-.hero .div-hero h1{
-    padding-top: 150px;
+.btn-azul{
+    background-color: #00A4EF;
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
 }
+
+
 
