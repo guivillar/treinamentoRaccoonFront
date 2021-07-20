@@ -15,7 +15,55 @@
 }
 
 .corpo .div-texto-corpo{
-    padding: 50px 100px 50px 100px;
+    padding: 50px 100px 100px 100px;
+    
+}
+
+.corpo .div-blocos-corpo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.corpo .div-blocos-corpo h2{
+    font-size: 1.5rem;
+    color: #2571B7;
+}
+
+.corpo .div-blocos-corpo .texto-corpo{
+    padding: 10px 25px 25px 25px;
+    margin-bottom: 0;
+}
+
+.corpo .div-blocos-corpo .bloco{
+    display: flex;
+    flex-direction: row;
+    background-color: #0072c6;
+    margin: 10px 15px 10px 15px;
+    padding: 10px 10px 0 15px;
+}
+
+.corpo .div-blocos-corpo .image-bloco{
+    width: 50px;
+    padding-bottom: 10px;
+}
+
+.corpo .div-blocos-corpo .texto-bloco{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+    margin-left: 10px;
+}
+
+.corpo .div-blocos-corpo .texto-bloco .title-bloco{
+    margin-bottom: 5px;
+}
+
+.corpo .div-blocos-corpo .texto-bloco .conteudo-bloco{
+    font-size: 0.7rem;
 }
 
 @media (max-width: 991px){
@@ -36,7 +84,53 @@
     }
     
     .corpo .div-texto-corpo{
-        padding: 50px 25px 50px 25px;
+        padding: 50px 25px 25px 25px;
     }
-    
+
+    .corpo .div-blocos-corpo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .corpo .div-blocos-corpo h2{
+        font-size: 1.5rem;
+        color: #2571B7;
+    }
+
+    .corpo .div-blocos-corpo .texto-corpo{
+        padding: 10px 25px 25px 25px;
+        margin-bottom: 0;
+    }
+
+    .corpo .div-blocos-corpo .bloco{
+        display: flex;
+        flex-direction: row;
+        background-color: #0072c6;
+        margin: 10px 15px 10px 15px;
+        padding: 10px 10px 0 15px;
+    }
+
+    .corpo .div-blocos-corpo .image-bloco{
+        width: 50px;
+        padding-bottom: 10px;
+    }
+
+    .corpo .div-blocos-corpo .texto-bloco{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        color: white;
+        margin-left: 10px;
+    }
+
+    .corpo .div-blocos-corpo .texto-bloco .title-bloco{
+        margin-bottom: 5px;
+    }
+
+    .corpo .div-blocos-corpo .texto-bloco .conteudo-bloco{
+        font-size: 0.7rem;
+    }
+
 }
