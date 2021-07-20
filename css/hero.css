@@ -1,0 +1,123 @@
+
+
+.hero .div-hero{
+    background-image: url("../assets/Grupo\ 52.png");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    align-content: flex-end;
+    text-align: center;
+    height: 820px;
+}
+
+.btn-azul{
+    background-color: #00A4EF;
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.hero .div-hero .texto-hero{
+    padding: 210px 0 0 120px;
+}    
+
+.hero .div-hero h2{
+    padding-top: 30px;
+    font-size: 1.4em;
+    padding-left: 120px;
+}
+
+.hero .div-hero .btn-azul{
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.hero .div-hero .images-hero{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 250px;
+}
+
+.hero .div-hero .images-hero .seta-hero{
+    align-self: flex-start;
+    width: 56px;
+}
+
+.hero .div-hero .logo-hero{
+    width: 135px;
+    align-self: flex-end;
+}
+
+@media (max-width: 991px){
+    .hero .div-hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        color: white;
+        text-align: center;
+        height: 475px;
+    }
+    
+    .hero .div-hero .texto-hero{
+        padding: 100px 0 0 0;
+    }    
+    
+    .hero .div-hero h2{
+        padding-top: 30px;
+        font-size: 1.4em;
+        padding-left: 0;
+    }
+    
+    .hero .div-hero .btn-azul{
+        margin-top: 50px;
+        margin-left: 0;
+    }
+
+    .hero .div-hero .logo-hero{
+        padding: 50px 0 0 0;
+        width: 135px;
+        align-self: center;
+    }
+
+    .hero .div-hero .seta-hero{
+        display: none;
+    }
+
+    .hero .div-hero .images-hero{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 1441px) {
+    .hero .div-hero{
+        background-image: url("../assets/Grupo\ 52@2x.png");
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 1640px;
+    }
+}
+
+
+
