@@ -18,3 +18,17 @@
 .header .navbar .nav-item .nav-link{
     color: white;
 }
+
+@media (min-width: 1441px){
+    .header .navbar .navbar-brand .image-navbar{
+        width: 255px;
+    }
+
+    .header .navbar .navbar-nav{
+        font-size: 1.8rem;
+    }
+
+    .header .navbar .btn{
+        font-size: 1.8rem;
+    }
+}
