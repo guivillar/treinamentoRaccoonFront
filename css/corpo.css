@@ -1,0 +1,42 @@
+.corpo .div-texto-corpo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.texto-corpo{
+    font-size: 0.8rem;
+    color: #737373;
+}
+
+.texto-corpo .texto-vermelho{
+    color: #F25022;
+}
+
+.corpo .div-texto-corpo{
+    padding: 50px 25px 50px 25px;
+}
+
+@media (max-width: 991px){
+    .corpo .div-texto-corpo{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    .texto-corpo{
+        font-size: 0.8rem;
+        color: #737373;
+    }
+
+    .texto-corpo .texto-vermelho{
+        color: #737373;
+    }
+    
+    .corpo .div-texto-corpo{
+        padding: 50px 25px 50px 25px;
+    }
+    
+}

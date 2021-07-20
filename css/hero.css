@@ -78,8 +78,7 @@
     .hero .div-hero h2{
         padding-top: 30px;
         font-size: 1.4em;
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 0;
     }
     
     .hero .div-hero .btn-azul{
