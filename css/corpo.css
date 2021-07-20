@@ -43,6 +43,7 @@
     background-color: #0072c6;
     margin: 10px 15px 10px 15px;
     padding: 10px 10px 0 15px;
+    width: 45%;
 }
 
 .corpo .div-blocos-corpo .image-bloco{
@@ -133,4 +134,26 @@
         font-size: 0.7rem;
     }
 
+}
+
+@media (min-width: 1441px){
+    .texto-corpo{
+        font-size: 2rem;
+    }
+
+    .corpo .div-blocos-corpo h2{
+        font-size: 2.8rem;
+    }
+
+    .corpo .div-blocos-corpo .image-bloco{
+        width: 150px;
+    }
+
+    .corpo .div-blocos-corpo .texto-bloco .title-bloco{
+        font-size: 2rem;
+    }
+
+    .corpo .div-blocos-corpo .texto-bloco .conteudo-bloco{
+        font-size: 1.7rem;
+    }
 }
