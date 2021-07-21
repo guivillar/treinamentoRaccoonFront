@@ -40,7 +40,6 @@
 .corpo .div-blocos-corpo .bloco{
     display: flex;
     flex-direction: row;
-    background-color: #0072c6;
     margin: 10px 15px 10px 15px;
     padding: 10px 10px 0 15px;
     width: 45%;
@@ -65,6 +64,46 @@
 
 .corpo .div-blocos-corpo .texto-bloco .conteudo-bloco{
     font-size: 0.7rem;
+}
+
+.corpo .div-blocos-corpo .bloco:nth-child(2){
+    background-color: #0072c6;
+}
+
+.corpo .div-blocos-corpo .bloco:nth-child(3){
+    background-color: #2c5898;
+}
+
+.corpo .div-blocos-corpo .bloco:nth-child(4){
+    background-color: #387346;
+}
+
+.corpo .div-blocos-corpo .bloco:nth-child(5){
+    background-color: #cb4a32;
+}
+
+.corpo .div-blocos-corpo .bloco:nth-child(6){
+    background-color: #754480;
+}
+
+.corpo .div-blocos-corpo .bloco:nth-child(7){
+    background-color: #00AFF0;
+}
+
+.corpo .div-blocos-corpo .bloco:nth-child(8){
+    background-color: #094AB2;
+}
+
+.corpo .div-blocos-corpo .bloco:nth-child(9){
+    background-color: #0073C6;
+}
+
+.corpo .div-blocos-corpo .bloco:nth-child(10){
+    background-color: #0093BE;
+}
+
+.corpo .div-blocos-corpo .bloco:nth-child(11){
+    background-color: #5558AF;
 }
 
 @media (max-width: 991px){
@@ -111,6 +150,7 @@
         background-color: #0072c6;
         margin: 10px 15px 10px 15px;
         padding: 10px 10px 0 15px;
+        width: auto;
     }
 
     .corpo .div-blocos-corpo .image-bloco{
