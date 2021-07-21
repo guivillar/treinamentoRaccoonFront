@@ -1,0 +1,9 @@
+.corpo-2 div .titulo-corpo{
+    text-align: center;
+}
+
+@media (max-width: 991px){
+    .corpo-2 div .titulo-corpo{
+        margin-top: 50px;
+    }
+}
