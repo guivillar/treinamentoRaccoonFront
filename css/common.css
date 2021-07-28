@@ -1,0 +1,97 @@
+@font-face{
+    font-family: "SegoeUI";
+    src: url("../assets/fonts/segoeui.ttf")
+    format('truetype');;
+}
+@font-face{
+    font-family: "SegoeUIb";
+    src: url("../assets/fonts/segoeuib.ttf")
+    format('truetype');;
+}
+@font-face{
+    font-family: "SegoeUIl";
+    src: url("../assets/fonts/segoeuil.ttf")
+    format('truetype');;
+}
+
+.container{
+    margin: 0 120px;
+}
+
+body{
+    font-family: "SegoeUI";
+    margin: 0;
+}
+
+.btn{
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.fundo-00a4ef{
+    background-color: #00A4EF;
+}
+
+.fundo-002050{
+    background-color: #002050;
+}
+
+.fundo-0072c6{
+    background-color: #0072C6;
+}
+
+.fundo-2c5898{
+    background-color: #2c5898;
+}
+
+.fundo-387346{
+    background-color: #387346;
+}
+
+.fundo-cb4a32{
+    background-color: #cb4a32;
+}
+
+.fundo-754480{
+    background-color: #754480;
+}
+
+.fundo-00aff0{
+    background-color: #00AFF0;
+}
+
+.fundo-094ab2{
+    background-color: #094AB2;
+}
+
+.fundo-0073c6{
+    background-color: #0073C6;
+}
+
+.fundo-0093be{
+    background-color: #0093BE;
+}
+
+.fundo-5558af{
+    background-color: #5558AF;
+}
+
+@media (min-width:320px){
+    .container{
+        margin: 0 25px;
+    }
+}
+
+@media (min-width:768px){
+    .container{
+        margin: 0 120px;
+    }
+}
+
+@media (min-width:1200px){
+    .container{
+        margin: 0 120px;
+    }
+}
