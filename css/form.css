@@ -1,10 +1,10 @@
-.form{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-}
-
 @media (min-width: 320px){
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    
     .div-texto-form{
         text-align: center;
         padding: 0 15px;
@@ -63,9 +63,6 @@
     }
 
     .div-logos-form{
-        display: flex;
-        flex-wrap: nowrap;
-        align-self: center;
         margin: 50px 0 10px 0;
     }
 
@@ -97,7 +94,8 @@
 
     .div-form .btn.fundo-00a4ef{
         font-size: 2rem;
-        padding: 20px 30px;    }
+        padding: 20px 30px;    
+    }
 
     .div-texto-form{
         margin: 0 190px;

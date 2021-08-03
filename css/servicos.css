@@ -1,15 +1,7 @@
-.servicos .bloco-servicos{
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.servicos div .titulo-corpo{
-    text-align: center;
-}
-
 @media (min-width: 320px){
     .servicos div .titulo-corpo{
         margin-top: 50px;
+        text-align: center;
     }
 
     .servicos .bloco-servicos{
@@ -44,12 +36,6 @@
     .linha-servicos{
         border: 1px solid #dedede;
         margin-top: 25px;
-    }
-}
-
-@media (min-width: 768px){
-    .servicos div .titulo-corpo{
-        margin-top: 50px;
     }
 }
 

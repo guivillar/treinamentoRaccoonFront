@@ -17,10 +17,6 @@
     padding: 0 120px;
 }
 
-.hamburger {
-    display: none;
-}
-
 .nav-menu {
     display: flex;
     justify-content: space-between;
