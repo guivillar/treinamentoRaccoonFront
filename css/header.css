@@ -7,29 +7,18 @@
 }
 
 .header{
-    border-bottom: 1px solid #E2E8F0;
+    color: white;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 120px;
+    padding: 0 120px;
 }
 
 .hamburger {
     display: none;
-    background-image: url("../assets/hamburger2.svg");
-}
-
-.bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: white;
 }
 
 .nav-menu {
@@ -40,181 +29,96 @@
 }
 
 .nav-item {
-    margin-left: 50px;
+    margin: 0 25px;
 }
 
 .nav-link{
     font-size: 1.2rem;
     font-weight: 400;
-}
-
-.nav-link:hover{
-    color: #482ff7;
-}
-
-.nav-item.nav-logo {
-    margin-left: 0;
+    color: white;
 }
 
 .header .navbar .image-navbar{
-    max-width: 150px;
+    max-width: 110px;
 }
-
-
 
 .header .navbar{
     background-color: #2571B7;
 }
 
-.header .navbar .btn{
-    background-color: #002050;
-    color: white;
-}
 
-.header .navbar .nav-item .nav-link{
-    color: white;
-}
-
-@media (min-width: 320px) and (max-width: 768px){
-    .nav-menu {
-        position: fixed;
-        left: -100%;
-        top: 5rem;
-        flex-direction: column;
-        background-color: #fff;
-        width: 100%;
-        border-radius: 10px;
-        text-align: center;
-        transition: 0.3s;
-        box-shadow:
-            0 10px 27px rgba(0, 0, 0, 0.05);
+@media (min-width: 320px){
+    .nav-menu{
+        display: none;
     }
 
-    .nav-menu.active {
-        left: 0;
+    .nav-link{
+        display: none;
     }
 
-    .nav-item {
-        margin: 2.5rem 0;
-    }
-
-    .hamburger {
+    .hamburger{
         display: block;
-        cursor: pointer;
+        float: left;
+    }
+
+    .navbar{
+        padding: 5px 15px;
+    }
+
+    .header .navbar .btn.fundo-002050{
+        font-size: 1rem;
+        padding: 5px 15px;
     }
 }
 
-/*@media (min-width:768px){
-    .header li {
-        list-style: none;
-    }
-    
-    .header a {
-        text-decoration: none;
-    }
-    
-    .header{
-        border-bottom: 1px solid #E2E8F0;
-    }
-    
-    .navbar {
+@media (min-width: 1200px){
+    .nav-menu{
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 120px;
     }
-    
+
     .hamburger {
         display: none;
     }
-    
-    .bar {
-        display: block;
-        width: 25px;
-        height: 3px;
-        margin: 5px auto;
-        -webkit-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-        background-color: white;
-    }
-    
-    .nav-menu {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .nav-item {
-        margin-left: 5rem;
-    }
-    
+
     .nav-link{
+        display: flex;
+    }
+
+    .div-ul{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        margin-right: 70px;
+    }
+
+    .header .navbar .btn.fundo-002050{
         font-size: 1.2rem;
-        font-weight: 400;
+        padding: 10px 10px;
+        width: 200px;
     }
-    
-    .nav-link:hover{
-        color: #482ff7;
+
+    .header .navbar{
+        padding: 0 100px;
     }
-    
-    .nav-logo {
-        max-width: 150px;
+}
+
+@media (min-width: 2560px){
+    .header .navbar .nav-link{
+        font-size: 2rem;
     }
-    
+
+    .header .navbar .btn.fundo-002050{
+        font-size: 2rem;
+    }
+
     .header .navbar .image-navbar{
-        max-width: 150px;
+        max-width: 170px;
     }
-    
-    
-    
+
+    .header .navbar .btn.fundo-002050{
+        width: 300px;
+    }
     .header .navbar{
-        background-color: #2571B7;
-    }
-    
-    .header .navbar .btn{
-        background-color: #002050;
-        color: white;
-    }
-    
-    .header .navbar .nav-item .nav-link{
-        color: white;
+        padding: 15px 100px;
     }
 }
-
-@media (min-width:1200px){
-    .header .navbar{
-        background-color: #2571B7;
-    }
-    
-    .header .navbar .navbar-toggler .navbar-toggler-icon{
-        background-image: url("../assets/hamburger2.svg");
-    }
-    
-    .header .navbar .btn{
-        background-color: #002050;
-        color: white;
-    }
-    
-    .header .navbar .navbar-nav{
-        align-content: space-between;
-    }
-    
-    .header .navbar .nav-item .nav-link{
-        color: white;
-    }
-    
-}
-
-@media (min-width: 1441px){
-    .header .navbar .navbar-brand .image-navbar{
-        width: 255px;
-    }
-
-    .header .navbar .navbar-nav{
-        font-size: 1.8rem;
-    }
-
-    .header .navbar .btn{
-        font-size: 1.8rem;
-    }
-}*/

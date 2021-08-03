@@ -1,0 +1,44 @@
+
+
+@media (min-width: 320px){
+    .image-mid{
+        background-image: url("../assets/Grupo\ 89.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        color: white;
+        padding: 20px 0;
+        margin: 50px 0 30px 0;
+    }
+
+    .div-image-mid{
+        text-align: center;
+    }
+
+    .conteudo-image-mid{
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 1200px){
+    .image-mid{
+        background-image: url("../assets/Grupo\ 138.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        color: white;
+        padding: 50px 0;
+    }
+
+    .conteudo-image-mid{
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 2560px){
+    .conteudo-image-mid{
+        font-size: 5.2rem;
+    }
+}

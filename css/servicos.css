@@ -1,0 +1,123 @@
+.servicos .bloco-servicos{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.servicos div .titulo-corpo{
+    text-align: center;
+}
+
+@media (min-width: 320px){
+    .servicos div .titulo-corpo{
+        margin-top: 50px;
+    }
+
+    .servicos .bloco-servicos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .servicos .bloco-servicos .titulo-servicos{
+        font-size: 1rem;
+        font-family: "SegoeUI";
+        font-weight: 600;
+    }
+
+    .servicos .bloco-servicos .conteudo-servicos{
+        color: #737373;
+        font-size: 0.65rem;
+        margin-right: 10px;
+    }
+
+    .image-servicos{
+        width: 50px;
+        margin-top: 25px;
+    }
+
+    .servicos .texto-bloco-servicos .btn{
+        font-size: 0.65rem;
+        padding: 5px 5px;
+    }
+
+    .linha-servicos{
+        border: 1px solid #dedede;
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 768px){
+    .servicos div .titulo-corpo{
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 1200px){
+    .servicos div .titulo-corpo{
+        text-align: center;
+    }
+
+    .div-servicos{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .servicos .bloco-servicos{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        align-items: center;
+
+    }
+
+    .servicos .bloco-servicos .titulo-servicos{
+        font-size: 1.5rem;
+    }
+
+    .servicos .bloco-servicos .conteudo-servicos{
+        font-size: 1rem;
+    }
+
+    .texto-bloco-servicos{
+        text-align: center;
+        margin: 0 25px;
+    }
+
+    .servicos .div-servicos .linha-servicos{
+        display: none;
+    }
+
+    .image-servicos{
+        width: 160px;
+    }
+
+    .servicos .texto-bloco-servicos .btn{
+        font-size: 1rem;
+    }
+
+}
+
+@media (min-width: 2560px){
+    .servicos div .titulo-corpo{
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .image-servicos{
+        width: 230px;
+    }
+
+    .servicos .bloco-servicos .titulo-servicos{
+        font-size: 2.5rem;
+    }
+
+    .servicos .bloco-servicos .conteudo-servicos{
+        font-size: 2rem;
+    }
+
+    .servicos .texto-bloco-servicos .btn{
+        font-size: 2rem;
+        padding: 10px;
+    }
+}

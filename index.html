@@ -7,49 +7,37 @@
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/hero.css">
         <link rel="stylesheet" href="css/corpo.css">
-        <link rel="stylesheet" href="css/corpo-2.css">
+        <link rel="stylesheet" href="css/servicos.css">
         <link rel="stylesheet" href="css/common.css">
-
-        <script>
-            var toggle = document.querySelector('#toggle');
-            var menu = document.querySelector('#menu');
-
-            toggle.addEventListener('click', function(){
-                if (menu.classList.contains('is-active')) {
-                    menu.classList.remove('is-active');
-                } else {
-                    menu.classList.add('is-active'); 
-                }
-            });
-        </script>
-
+        <link rel="stylesheet" href="css/tabela.css">
+        <link rel="stylesheet" href="css/image-mid.css">
+        <link rel="stylesheet" href="css/form.css">
     </head>
     <body>
         <section class="header">
-            
             <nav class="navbar">
-                <button id="toggle hamburger"></button>
-                <ul id="menu" class="nav-menu">
-                    <li class="nav-item nav-logo">
-                        <a href="#" class="nav-link">
-                            <img class="image-navbar" src="assets/Grupo 105.svg">
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Lorem ipsum</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Lorem ipsum</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Lorem ipsum</a>
-                    </li>
-                </ul>
+                <img src="assets/hamburger2.svg" class="hamburger">
+                <a href="#" class="nav-link">
+                    <img class="image-navbar" src="assets/Grupo 105.svg">
+                </a>
+                <div class="div-ul">
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Lorem ipsum</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Lorem ipsum</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Lorem ipsum</a>
+                        </li>
+                    </ul>
+                </div>
                 <button class="btn fundo-002050">Lorem ipsum</button>
             </nav>
         </section>
         <section class="hero">
-            <div class="div-hero">
+            <div class="div-hero container">
                 <h1 class="texto-hero">Lorem ipsum</h1>
                 <h2>Lorem ipsum dolor sit amet, consactetur adipiscing elit</h2>
                 <button class="btn fundo-00a4ef">Lorem ipsum</button>
@@ -59,94 +47,182 @@
                 </div>
             </div>
         </section>
-        <section class="corpo">
-            <div class="div-texto-corpo container">
-                <p class="texto-corpo"><span class="texto-vermelho">Lorem Ipsum</span> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <section class="corpo container">
+            <div class="div-texto-corpo">
+                <p class="texto-corpo"><span class="texto-f25022">Lorem Ipsum</span> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <p class="texto-corpo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
             </div>
-            <div class="div-blocos-corpo container">
+            <div class="div-blocos-corpo">
                 <div>
                     <h2 class="titulo-corpo">Lorem Ipsum</h2>
                     <p class="texto-corpo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
                 </div>
-                <div class="bloco fundo-0072c6">
-                    <img class="image-bloco" src="assets/Grupo de máscara 1.svg">
-                    <div class="texto-bloco">
-                        <p class="title-bloco">Lorem ipsum</p>
-                        <p class="conteudo-bloco">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                <div class="div-blocos-corpo">
+                    <div class="bloco fundo-0072c6">
+                        <img class="image-bloco" src="assets/Grupo de máscara 1.svg">
+                        <div class="texto-bloco">
+                            <p class="title-bloco">Lorem ipsum</p>
+                            <p class="conteudo-bloco">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </div>
                     </div>
-                </div>
-                <div class="bloco fundo-2c5898">
-                    <img class="image-bloco" src="assets/Grupo de máscara 1.svg">
-                    <div class="texto-bloco">
-                        <p class="title-bloco">Lorem ipsum</p>
-                        <p class="conteudo-bloco">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                    <div class="bloco fundo-2c5898">
+                        <img class="image-bloco" src="assets/Grupo de máscara 1.svg">
+                        <div class="texto-bloco">
+                            <p class="title-bloco">Lorem ipsum</p>
+                            <p class="conteudo-bloco">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </div>
                     </div>
-                </div>
-                <div class="bloco fundo-387346">
-                    <img class="image-bloco" src="assets/Grupo de máscara 1.svg">
-                    <div class="texto-bloco">
-                        <p class="title-bloco">Lorem ipsum</p>
-                        <p class="conteudo-bloco">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                    <div class="bloco fundo-387346">
+                        <img class="image-bloco" src="assets/Grupo de máscara 1.svg">
+                        <div class="texto-bloco">
+                            <p class="title-bloco">Lorem ipsum</p>
+                            <p class="conteudo-bloco">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </div>
                     </div>
-                </div>
-                <div class="bloco fundo-cb4a32">
-                    <img class="image-bloco" src="assets/Grupo de máscara 1.svg">
-                    <div class="texto-bloco">
-                        <p class="title-bloco">Lorem ipsum</p>
-                        <p class="conteudo-bloco">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                    <div class="bloco fundo-cb4a32">
+                        <img class="image-bloco" src="assets/Grupo de máscara 1.svg">
+                        <div class="texto-bloco">
+                            <p class="title-bloco">Lorem ipsum</p>
+                            <p class="conteudo-bloco">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </div>
                     </div>
-                </div>
-                <div class="bloco fundo-754480">
-                    <img class="image-bloco" src="assets/Grupo de máscara 1.svg">
-                    <div class="texto-bloco">
-                        <p class="title-bloco">Lorem ipsum</p>
-                        <p class="conteudo-bloco">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                    <div class="bloco fundo-754480">
+                        <img class="image-bloco" src="assets/Grupo de máscara 1.svg">
+                        <div class="texto-bloco">
+                            <p class="title-bloco">Lorem ipsum</p>
+                            <p class="conteudo-bloco">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </div>
                     </div>
-                </div>
-                <div class="bloco fundo-00aff0">
-                    <img class="image-bloco" src="assets/Grupo de máscara 1.svg">
-                    <div class="texto-bloco">
-                        <p class="title-bloco">Lorem ipsum</p>
-                        <p class="conteudo-bloco">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                    <div class="bloco fundo-00aff0">
+                        <img class="image-bloco" src="assets/Grupo de máscara 1.svg">
+                        <div class="texto-bloco">
+                            <p class="title-bloco">Lorem ipsum</p>
+                            <p class="conteudo-bloco">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </div>
                     </div>
-                </div>
-                <div class="bloco fundo-094ab2">
-                    <img class="image-bloco" src="assets/Grupo de máscara 1.svg">
-                    <div class="texto-bloco">
-                        <p class="title-bloco">Lorem ipsum</p>
-                        <p class="conteudo-bloco">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                    <div class="bloco fundo-094ab2">
+                        <img class="image-bloco" src="assets/Grupo de máscara 1.svg">
+                        <div class="texto-bloco">
+                            <p class="title-bloco">Lorem ipsum</p>
+                            <p class="conteudo-bloco">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </div>
                     </div>
-                </div>
-                <div class="bloco fundo-0073c6">
-                    <img class="image-bloco" src="assets/Grupo de máscara 1.svg">
-                    <div class="texto-bloco">
-                        <p class="title-bloco">Lorem ipsum</p>
-                        <p class="conteudo-bloco">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                    <div class="bloco fundo-0073c6">
+                        <img class="image-bloco" src="assets/Grupo de máscara 1.svg">
+                        <div class="texto-bloco">
+                            <p class="title-bloco">Lorem ipsum</p>
+                            <p class="conteudo-bloco">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </div>
                     </div>
-                </div>
-                <div class="bloco fundo-0093be">
-                    <img class="image-bloco" src="assets/Grupo de máscara 1.svg">
-                    <div class="texto-bloco">
-                        <p class="title-bloco">Lorem ipsum</p>
-                        <p class="conteudo-bloco">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                    <div class="bloco fundo-0093be">
+                        <img class="image-bloco" src="assets/Grupo de máscara 1.svg">
+                        <div class="texto-bloco">
+                            <p class="title-bloco">Lorem ipsum</p>
+                            <p class="conteudo-bloco">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </div>
                     </div>
-                </div>
-                <div class="bloco fundo-5558af">
-                    <img class="image-bloco" src="assets/Grupo de máscara 1.svg">
-                    <div class="texto-bloco">
-                        <p class="title-bloco">Lorem ipsum</p>
-                        <p class="conteudo-bloco">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                    <div class="bloco fundo-5558af">
+                        <img class="image-bloco" src="assets/Grupo de máscara 1.svg">
+                        <div class="texto-bloco">
+                            <p class="title-bloco">Lorem ipsum</p>
+                            <p class="conteudo-bloco">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="corpo-2">
+        <section class="servicos container">
             <div>
                 <h2 class="titulo-corpo">Lorem Ipsum</h2>
             </div>
+            <div class="div-servicos">
+                <div class="bloco-servicos">
+                    <div class="texto-bloco-servicos color-7fba00">
+                        <p class="titulo-servicos">Lorem ipsum dolor</p>
+                        <p class="conteudo-servicos">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                        <button class="btn borda-7fba00 color-7fba00">Lorem ipsum</button>
+                    </div>
+                    <div>
+                        <img class="image-servicos" src="assets/Grupo 53.svg">
+                    </div>
+                </div>
+                <hr class="linha-servicos">
+                <div class="bloco-servicos">
+                    <div class="texto-bloco-servicos color-00a4ef">
+                        <p class="titulo-servicos">Lorem ipsum dolor</p>
+                        <p class="conteudo-servicos">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                        <button class="btn borda-00a4ef color-00a4ef">Lorem ipsum</button>
+                    </div>
+                    <div>
+                        <img class="image-servicos" src="assets/Grupo 55.svg">
+                    </div>
+                </div>
+                <hr class="linha-servicos">
+                <div class="bloco-servicos">
+                    <div class="texto-bloco-servicos color-ffb900">
+                        <p class="titulo-servicos">Lorem ipsum dolor</p>
+                        <p class="conteudo-servicos">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                        <button class="btn borda-ffb900 color-ffb900">Lorem ipsum</button>
+                    </div>
+                    <div>
+                        <img class="image-servicos" src="assets/Grupo 54.svg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tabela container">
             <div>
-                
+                <h2 class="titulo-corpo">Lorem ipsum dolor</h2>
+            </div>
+            <div class="div-tabela">
+                <div class="bloco-tabela">
+                    <p class="texto-f25022 titulo-tabela">Lorem ipsum dolor</p>
+                    <p class="conteudo-tabela">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                </div>
+                <div class="bloco-tabela">
+                    <p class="texto-f25022 titulo-tabela">Lorem ipsum dolor</p>
+                    <p class="conteudo-tabela">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                </div>
+                <div class="bloco-tabela">
+                    <p class="texto-f25022 titulo-tabela">Lorem ipsum dolor</p>
+                    <p class="conteudo-tabela">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                </div>
+                <div class="bloco-tabela">
+                    <p class="texto-f25022 titulo-tabela">Lorem ipsum dolor</p>
+                    <p class="conteudo-tabela">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                </div>
+            </div>
+        </section>
+        <section class="image-mid">
+            <div class="div-image-mid container">
+                <p class="conteudo-image-mid">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+            </div>
+        </section>
+        <section class="form container">
+            <div class="div-texto-form">
+                <p class="texto-corpo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="div-form fundo-e6e6e6">
+                <form>
+                    <label class="label-form color-2571b7">Lorem ipsum</label><br>
+                    <input class="input-form borda-2571b7 color-737373" type="text" value="Lorem ipsum"><br>
+                    <label class="label-form color-737373">Lorem ipsum</label><br>
+                    <input class="input-form borda-none color-737373" type="text"><br>
+                    <label class="label-form color-737373">Lorem ipsum</label><br>
+                    <input class="input-form borda-none color-737373" type="text"><br>
+                    <label class="label-form color-737373">Lorem ipsum</label><br>
+                    <input class="input-form borda-none color-737373" type="text"><br>
+                    <label class="label-form color-737373">Lorem ipsum</label><br>
+                    <input class="input-form borda-none color-737373" type="text"><br><br>
+                    <input class="btn fundo-00a4ef" type="submit" value="Lorem ipsum">
+                  </form> 
+            </div>
+            <div class="div-logos-form">
+                <img class="logo-bottom" src="assets/Grupo modificado.png">
+                <img class="logo-bottom" src="assets/Grupo modificado.png">
+            </div>
+            <div class="div-copyright">
+                <p class="copyright color-b4b4b4">© Copyright Ingram Micro Brasil 2018</p>
             </div>
         </section>
     </body>
